@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+table{
+    width: 100%;
+    background-color: #0f0a0490;
+}
+
+table, td, tr{
+    border: 1px solid #c0b09e;
+    border-collapse: collapse;
+}
+
+table tr{
+    height: 50px;
+}
+
+table td{
+    padding: 0 20px;
+    font-size: 0.9rem;
+}
+
+table tr td:nth-child(2),td:nth-child(3){
+    padding-left: 50px;
+}
+
+input, select{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #463d33;
+    border: none;
+    color: #e0d8d0;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type = 'number']{
+    width: 91%;
+}
+
+.btn{
+    width: 100%;
+    margin-top: 40px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    border:none;
+}
+
+.detils-body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.detils-body .order-area{
+    background: #0F0A04;
+    width: 40%;
+    display: flex;;
+    flex-direction: column;
+    justify-content : center;
+    padding: 60px 60px ;
+}
+
+.detils-body .order-area h1{
+    margin-bottom: 10px;
+}
+
+.detils-body .oder-details-area{
+    width: 100%;
+    background-image: url('./assets/wooden_background.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.detils-body .oder-details-area .details-area{
+    width: 80%;
+}
+
+.detils-body .oder-details-area .details-area h1{
+    margin-bottom: 10px;
+}
+
+.detils-body .oder-details-area .details-area h3{
+    margin: 30px 0;
+}
+
+.detils-body .food-selection{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}

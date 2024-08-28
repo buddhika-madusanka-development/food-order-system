@@ -1,0 +1,55 @@
+{
+    "menu": [
+      {
+        "item_name": "Spicy Chicken Wings",
+        "item_price": 8.99,
+        "category": "Appetizers"
+      },
+      {
+        "item_name": "Vegetable Spring Rolls",
+        "item_price": 5.49,
+        "category": "Appetizers"
+      },
+      {
+        "item_name": "Cheese Nachos",
+        "item_price": 7.99,
+        "category": "Snacks"
+      },
+      {
+        "item_name": "Beef Sliders",
+        "item_price": 9.99,
+        "category": "Snacks"
+      },
+      {
+        "item_name": "Classic Caesar Salad",
+        "item_price": 6.49,
+        "category": "Salads"
+      },
+      {
+        "item_name": "Greek Salad",
+        "item_price": 7.49,
+        "category": "Salads"
+      },
+      {
+        "item_name": "Buffalo Chicken Wrap",
+        "item_price": 10.99,
+        "category": "Wraps"
+      },
+      {
+        "item_name": "Veggie Wrap",
+        "item_price": 9.49,
+        "category": "Wraps"
+      },
+      {
+        "item_name": "Chocolate Chip Cookies",
+        "item_price": 2.99,
+        "category": "Desserts"
+      },
+      {
+        "item_name": "Cheesecake",
+        "item_price": 4.99,
+        "category": "Desserts"
+      }
+    ]
+  }
+  
